@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullStackCITest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a097c7c72c4eb71705309180775c699f50f59d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullStackCITest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullStackCITest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
