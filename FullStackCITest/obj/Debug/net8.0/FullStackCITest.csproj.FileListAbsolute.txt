@@ -421,3 +421,4 @@ C:\Cursos_INEC\Cursos_Cenfotec\Curso_FullStack_NET\FullStackCI_Alejandro_Campos\
 C:\Cursos_INEC\Cursos_Cenfotec\Curso_FullStack_NET\FullStackCI_Alejandro_Campos\FullStackCITest\obj\Debug\net8.0\FullStackCITest.pdb
 C:\Cursos_INEC\Cursos_Cenfotec\Curso_FullStack_NET\FullStackCI_Alejandro_Campos\FullStackCITest\obj\Debug\net8.0\FullStackCITest.genruntimeconfig.cache
 C:\Cursos_INEC\Cursos_Cenfotec\Curso_FullStack_NET\FullStackCI_Alejandro_Campos\FullStackCITest\obj\Debug\net8.0\ref\FullStackCITest.dll
+C:\Cursos_INEC\Cursos_Cenfotec\Curso_FullStack_NET\FullStackCI_Alejandro_Campos\FullStackCITest\obj\Debug\net8.0\FullStackCITest.sourcelink.json

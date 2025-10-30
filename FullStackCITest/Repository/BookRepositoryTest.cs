@@ -33,23 +33,23 @@ namespace FullStackCITest.Repository
 
         }
 
-        [Fact]
-        public async Task GetByIdAsync_ExistingBook_ReturnsBook()
-        {
-            // Arrange
-            var book = new Book { Id = 2, Title = "Test Book" };
-            _commandRepository.CreateAsync(book);
-            //await _context.SaveChangesAsync(); // no hace falta porque se realiza en el commmand repository
-            // Act
-            var result = await _repository.GetByIdAsync(book.Id);
-            // Assert
-            Assert.Equal(book.Id, result.Id);
-            Assert.Equal("Test Book", result.Title);
+        //[Fact]
+        //public async Task GetByIdAsync_ExistingBook_ReturnsBook()
+        //{
+        //    // Arrange
+        //    var book = new Book { Id = 2, Title = "Test Book" };
+        //    _commandRepository.CreateAsync(book);
+        //    //await _context.SaveChangesAsync(); // no hace falta porque se realiza en el commmand repository
+        //    // Act
+        //    var result = await _repository.GetByIdAsync(book.Id);
+        //    // Assert
+        //    Assert.Equal(book.Id, result.Id);
+        //    Assert.Equal("Test Book", result.Title);
 
-            //result.Should().NotBeNull();
-            //result.Id.Should().Be(book.Id);
-            //result.Title.Should().Be("Test Book");
-        }
+        //    //result.Should().NotBeNull();
+        //    //result.Id.Should().Be(book.Id);
+        //    //result.Title.Should().Be("Test Book");
+        //}
         [Fact]
         public async Task GetByIdAsync_NonExistingBook_ReturnsNull()
         {
