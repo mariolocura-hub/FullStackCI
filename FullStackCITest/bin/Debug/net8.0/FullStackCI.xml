@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FullStackCI</name>
+    </assembly>
+    <members>
+        <member name="P:FullStackCI.Dtos.AuthorDto.Id">
+            <summary>
+            Identificador único del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Dtos.AuthorDto.Name">
+            <summary>
+            Nombre completo del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Dtos.AuthorDto.Nationality">
+            <summary>
+            Nacionalidad del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Dtos.AuthorDto.BirthYear">
+            <summary>
+            Año de nacimiento del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Models.Author.Id">
+            <summary>
+            Identificador único del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Models.Author.Name">
+            <summary>
+            Nombre completo del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Models.Author.Nationality">
+            <summary>
+            Nacionalidad del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Models.Author.BirthYear">
+            <summary>
+            Año de nacimiento del autor.
+            </summary>
+        </member>
+        <member name="P:FullStackCI.Models.Author.Books">
+            <summary>
+            Colección de libros escritos por el autor.
+            </summary>
+        </member>
+        <member name="F:FullStackCI.Services.AuthorService._unitOfWorkRepository">
+            <summary>
+            Referencia al repositorio de unidad de trabajo.
+            </summary>
+        </member>
+        <member name="M:FullStackCI.Services.AuthorService.#ctor(FullStackCI.Repositories.IUnitOfWork)">
+            <summary>
+            Constructor de la clase AuthorService.
+            </summary>
+            <param name="iUnitOfWork"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:FullStackCI.Services.AuthorService.GetAllAuthorsAsync" -->
+        <member name="M:FullStackCI.Services.AuthorService.GetAuthorByIdAsync(System.Int32)">
+            <summary>
+            Obtiene un autor por su ID. 
+            </summary>
+            <param name="id"></param>
+            <returns>AuthorDto?</returns>
+        </member>
+        <member name="M:FullStackCI.Services.AuthorService.ConvertToDto(FullStackCI.Models.Author)">
+            <summary>
+            Convierte una entidad Author a un AuthorDto.
+            </summary>
+            <param name="author"></param>
+            <returns>AuthorDto</returns>
+        </member>
+        <member name="M:FullStackCI.Services.IAuthorCommandService.CreateAuthorAsync(FullStackCI.Dtos.CreateAuthorDto)">
+            <summary>
+            Medo de crear un autor.
+            </summary>
+            <param name="createAuthorDto"></param>
+            <returns>AuthorDto</returns>
+        </member>
+        <member name="M:FullStackCI.Services.IAuthorCommandService.UpdateAuthorAsync(System.Int32,FullStackCI.Dtos.CreateAuthorDto)">
+            <summary>
+            Metodo de actualizar un autor   
+            </summary>
+            <param name="id"></param>
+            <param name="updateAuthorDto"></param>
+            <returns>AuthorDto?</returns>
+        </member>
+        <member name="M:FullStackCI.Services.IAuthorCommandService.DeleteAuthorAsync(System.Int32)">
+            <summary>
+            Metodo de eliminar un autor.
+            </summary>
+            <param name="id"></param>
+            <returns>bool</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:FullStackCI.Services.IAuthorService.GetAllAuthorsAsync" -->
+        <member name="M:FullStackCI.Services.IAuthorService.GetAuthorByIdAsync(System.Int32)">
+            <summary>
+            Obtiene un autor por su ID.
+            </summary>
+            <param name="id"></param>
+            <returns>AuthorDto?</returns>
+        </member>
+    </members>
+</doc>
